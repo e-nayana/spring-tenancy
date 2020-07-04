@@ -1,4 +1,4 @@
-package pac.test.engine.master;
+package com.spring.houston.tenant.engine.master;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.slf4j.Logger;
@@ -11,7 +11,7 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
-import pac.test.engine.EnableTenantMasterJpaRepositories;
+import com.spring.houston.tenant.engine.EnableTenantMasterJpaRepositories;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
@@ -52,7 +52,7 @@ public abstract class MasterDatabaseConfig {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
 
         //scan entities belongs to this persistence unit//
-        em.setPackagesToScan("pac.test.engine.master.entity");
+        em.setPackagesToScan("com.spring.houston.tenant.engine.master.entity");
         em.setDataSource(masterDataSource());
         em.setPersistenceUnitName("masterdb-persistence-unit");
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();

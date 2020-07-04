@@ -1,6 +1,6 @@
 package com.tenancy.main.controller;
 
-import pac.test.engine.TenantDBContext;
+import com.spring.houston.tenant.engine.TenantDBContext;
 import com.tenancy.main.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

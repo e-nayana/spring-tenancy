@@ -1,6 +1,6 @@
-package pac.test.engine.master.repository;
+package com.spring.houston.tenant.engine.master.repository;
 
-import pac.test.engine.master.entity.MasterTenant;
+import com.spring.houston.tenant.engine.master.entity.MasterTenant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package pac.test.engine.master.entity;
+package com.spring.houston.tenant.engine.master.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;

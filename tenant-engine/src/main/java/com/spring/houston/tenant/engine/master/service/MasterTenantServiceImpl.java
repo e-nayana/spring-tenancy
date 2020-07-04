@@ -1,7 +1,7 @@
-package pac.test.engine.master.service;
+package com.spring.houston.tenant.engine.master.service;
 
-import pac.test.engine.master.entity.MasterTenant;
-import pac.test.engine.master.repository.MasterTenantRepository;
+import com.spring.houston.tenant.engine.master.entity.MasterTenant;
+import com.spring.houston.tenant.engine.master.repository.MasterTenantRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

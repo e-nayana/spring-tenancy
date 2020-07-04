@@ -1,6 +1,6 @@
-package pac.test.engine.master.service;
+package com.spring.houston.tenant.engine.master.service;
 
-import pac.test.engine.master.entity.MasterTenant;
+import com.spring.houston.tenant.engine.master.entity.MasterTenant;
 
 /**
  * @author Houston(Nayana)

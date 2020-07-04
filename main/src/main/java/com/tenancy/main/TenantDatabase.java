@@ -3,8 +3,8 @@ package com.tenancy.main;
 import org.hibernate.cfg.Environment;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import pac.test.engine.EnableTenantJpaRepositories;
-import pac.test.engine.tenant.TenantDatabaseConfig;
+import com.spring.houston.tenant.engine.EnableTenantJpaRepositories;
+import com.spring.houston.tenant.engine.tenant.TenantDatabaseConfig;
 
 import java.util.Properties;
 

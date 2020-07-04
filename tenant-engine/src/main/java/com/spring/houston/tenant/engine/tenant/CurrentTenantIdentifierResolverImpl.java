@@ -1,6 +1,6 @@
-package pac.test.engine.tenant;
+package com.spring.houston.tenant.engine.tenant;
 
-import pac.test.engine.TenantDBContext;
+import com.spring.houston.tenant.engine.TenantDBContext;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.context.spi.CurrentTenantIdentifierResolver;
 

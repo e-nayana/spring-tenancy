@@ -2,8 +2,8 @@ package com.tenancy.main;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import pac.test.engine.master.MasterDatabaseConfig;
-import pac.test.engine.master.MasterDatabaseConfigProperties;
+import com.spring.houston.tenant.engine.master.MasterDatabaseConfig;
+import com.spring.houston.tenant.engine.master.MasterDatabaseConfigProperties;
 
 import java.util.Properties;
 
