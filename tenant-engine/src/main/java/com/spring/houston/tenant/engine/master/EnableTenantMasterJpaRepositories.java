@@ -1,5 +1,6 @@
-package com.spring.houston.tenant.engine;
+package com.spring.houston.tenant.engine.master;
 
+import com.spring.houston.tenant.engine.tenant.EnableTenantJpaRepositories;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import java.lang.annotation.*;

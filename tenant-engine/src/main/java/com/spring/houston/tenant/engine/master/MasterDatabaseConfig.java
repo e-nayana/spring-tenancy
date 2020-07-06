@@ -11,7 +11,6 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
-import com.spring.houston.tenant.engine.EnableTenantMasterJpaRepositories;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
